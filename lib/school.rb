@@ -3,7 +3,7 @@ class School
     @name = name
   end
 
-  roster = {}
+  @roster = {}
 
   attr_reader :name
 
