@@ -18,9 +18,10 @@ class School
   end
 
   def sort
+    alpha_sorted_grade = []
     @roster.each do |grade, names|
-      sorted[grade] = names.sort
+      alpha_sorted_grade[grade] = names.sort
     end
-    sorted
+    alpha_sorted_grade
   end
 end
